@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">ShutterSupplyHub</string>
+    <string name="opening_title">Welcome to ShutterSupply Hub</string>
+    <string name="opening_description">In this app you can find all sort of supplies and components for your photography projects
+    and pursuits. Please also check our campaign for collecting used cameras and accessories and get a Discount!</string>
+    <string name="sign_in">Sign in</string>
+    <string name="register">Register</string>
+    <string name="logo">Logo</string>
+    <string name="sign_in_title">Please Sign In</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="sign_in_descr">Please enter your Email and Password to Sign In the system.</string>
+    <string name="forgotten_password">Forgot Password?</string>
+    <string name="other_sign_in">Or Sign In With</string>
+    <string name="other_sign_up">Or continue with</string>
+    <string name="google_continue">Continue with Google</string>
+    <string name="google">Sign In With Google</string>
+    <string name="no_account">You don\'t have an account?</string>
+    <string name="have_account">You have an account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="get_started">Let\'s Get Started</string>
+    <string name="register_descr">Create an account to continue</string>
+    <string name="username">Username</string>
+    <string name="continue1">continue</string>
+    <string name="email">Email</string>
+    <string name="categories">Categories</string>
+    <string name="dclr">DCLR</string>
+    <string name="mirrorless">Mirrorless</string>
+    <string name="isntant_cameras">Instant Cameras</string>
+    <string name="lens">Lens</string>
+    <string name="flashes">Flashes</string>
+    <string name="other">Other</string>
+    <string name="product_title">Canon EOS 90D</string>
+    <string name="price">1550.00£</string>
+    <string name="product_description">The EOS 90D is built around a 32.5 MP APS-C sensor, giving the lens
+        a zoom range of 1.6 times that of a full-frame camera. A great choice for sports and wildlife
+        photographers: capture incredibly detailed images at speed of 10 fps with continuous focus. Support for UHS-II SD memory cards allows the
+        camera to record images quickly and shoot up to 58 full-size JPEG files, 25 RAW files or 39 CRAW
+        files in one shot.</string>
+    <string name="shootingText">Fast continuous shooting</string>
+    <string name="megapixelsText">32.5 megapixel APS-C CMOS sensor</string>
+    <string name="add_cart">Add to Cart</string>
+    <string name="title">Recycling old cameras and accessories</string>
+    <string name="first_step">1.</string>
+    <string name="first_step_descr">Bring an old or broken device (camera, lens, other accessories) to our store for recycling.</string>
+    <string name="second_step">2.</string>
+    <string name="second_step_descr">Choose a device from our selection and get 25% off the new price of the device.</string>
+    <string name="third_step">3.</string>
+    <string name="third_step_descr">We organize recycling, and together we help the planet.</string>
+</resources>

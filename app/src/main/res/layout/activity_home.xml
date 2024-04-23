@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".home">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/logo_transparent"
+            android:layout_marginEnd="80dp"/>
+
+        <ImageButton
+            android:id="@+id/search_icon"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:srcCompat="@drawable/ic_search"
+            android:background="@android:color/transparent"
+            android:gravity="end"/>
+
+        <ImageButton
+            android:id="@+id/cart_icon"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:srcCompat="@drawable/ic_shopping_cart"
+            android:background="@android:color/transparent"
+            android:paddingTop="8dp"/>
+
+        <ImageButton
+            android:id="@+id/account_icon"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:srcCompat="@drawable/ic_account"
+            android:background="@android:color/transparent"
+            android:paddingTop="8dp"
+            />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/mainImage"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:src="@drawable/home3" />
+
+    <TextView
+        android:id="@+id/categoriesText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/raleway_bold"
+        android:gravity="center"
+        android:layout_marginVertical="20dp"
+        android:textSize="22sp"
+        android:textColor="@color/mainColor"
+        android:text="@string/categories" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginHorizontal="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginEnd="5dp">
+
+                    <ImageButton
+                        android:id="@+id/dclrImage"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/dclr"
+                        android:scaleType="fitCenter"
+                        android:background="@android:color/transparent"/> />
+
+                    <TextView
+                        android:id="@+id/dclrText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dclr"
+                        android:fontFamily="@font/raleway_bold"
+                        android:textSize="16sp"
+                        android:gravity="center"
+                        android:layout_marginTop="5dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginStart="5dp">
+
+                    <ImageButton
+                        android:id="@+id/mirrorlessImage"
+                        android:layout_width="300dp"
+                        android:layout_height="300dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/mirrorless3"
+                        android:scaleType="fitStart"
+                        android:background="@android:color/transparent"/>" />
+
+                    <TextView
+                        android:id="@+id/mirrorlessText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/mirrorless"
+                        android:fontFamily="@font/raleway_bold"
+                        android:textSize="16sp"
+                        android:gravity="center"
+                        android:layout_marginTop="5dp"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="40dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginEnd="5dp">
+
+                    <ImageButton
+                        android:id="@+id/polaroidImage"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/polaroid"
+                        android:scaleType="fitCenter"
+                        android:background="@android:color/transparent"/> />
+
+                    <TextView
+                        android:id="@+id/polaroidText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/isntant_cameras"
+                        android:fontFamily="@font/raleway_bold"
+                        android:textSize="16sp"
+                        android:gravity="center"
+                        android:layout_marginTop="5dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginStart="5dp">
+
+                    <ImageButton
+                        android:id="@+id/lensImage"
+                        android:layout_width="300dp"
+                        android:layout_height="300dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/lens"
+                        android:scaleType="fitStart"
+                        android:background="@android:color/transparent"/>" />
+
+                    <TextView
+                        android:id="@+id/lensText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/lens"
+                        android:fontFamily="@font/raleway_bold"
+                        android:textSize="16sp"
+                        android:gravity="center"
+                        android:layout_marginTop="5dp"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="20dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginEnd="5dp">
+
+                    <ImageButton
+                        android:id="@+id/flashesImage"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/flashes"
+                        android:scaleType="fitCenter"
+                        android:background="@android:color/transparent"/> />
+
+                    <TextView
+                        android:id="@+id/flashesText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/flashes"
+                        android:fontFamily="@font/raleway_bold"
+                        android:textSize="16sp"
+                        android:gravity="center"
+                        android:layout_marginTop="5dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginStart="5dp">
+
+                    <ImageButton
+                        android:id="@+id/otherImage"
+                        android:layout_width="300dp"
+                        android:layout_height="300dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/other"
+                        android:scaleType="fitStart"
+                        android:background="@android:color/transparent"/>" />
+
+                    <TextView
+                        android:id="@+id/otherText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/other"
+                        android:fontFamily="@font/raleway_bold"
+                        android:textSize="16sp"
+                        android:gravity="center"
+                        android:layout_marginTop="5dp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
